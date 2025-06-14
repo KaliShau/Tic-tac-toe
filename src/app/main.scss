@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply w-screen;
+  background-image: url('../shared/assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; // ← Фиксируем фон
+
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+
+  height: calc(100vh - 8px);
+}
